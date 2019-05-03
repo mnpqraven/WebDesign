@@ -1,0 +1,19 @@
+---
+title: TBD
+author: Hoang Tung, Truong
+output: pdf_document
+---
+
+\tableofcontents
+
+# Current situation
+- Lacking platform for new or underground artists/circles, esp. in the Asia region
+- The best option is bandcamp
+-  Soundcloud is a terrible platform with the worst audio encoding imaginable
+
+# Goal
+- Provide support for lesser knowns artists, discography and xfds
+- Copyright and trademark: Only xfds are allowed for upload, transformative works are under Fair Use
+
+# Internal structure
+- TBD
