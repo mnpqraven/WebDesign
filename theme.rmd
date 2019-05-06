@@ -9,7 +9,7 @@ header-includes:
 
 \tableofcontents
 
-# Current situation
+# Why
 - Lacking platform for new or underground artists/circles, esp. in the Asia region
 - Countries like Japan still has very focused physical media platforms instead of digital, digital music platform, for example streaming is still extremely under-utilized
 - The best option is bandcamp, but it's still very foreign for users outside of Europe and America
@@ -17,7 +17,7 @@ header-includes:
 
 # Goal
 - Provide support for lesser knowns artists, discography and xfds
-- Copyright and trademark: Only xfds are allowed for upload, transformative works are under Fair Use
+- Copyright and trademark: Only xfds/metadata are allowed for upload by the maintainer/admin in this case, xfds are transformative works and fall under Fair Use
 - Link to the album/artist storepage for purchase
 
 
@@ -25,8 +25,9 @@ header-includes:
 
 # Internal structure
 - Metadata: currently by hand
-  - Will be expanded into SQL Database in the future
+  - Will be expanded into SQL Database in the future (inb4 nvr)
 - XFDs: offline server
+
 # Site structure:
 - Overall GUI examples:
   - \begin{CJK}{UTF8}{min}
@@ -34,3 +35,31 @@ header-includes:
 \href{http://muonofficial.com/new_discography/haku/}{舞音KAGURA} for presentation and more specific details
 \end{CJK}
   - End result should be a sliding vertical pane of discography and horizontal presentation of details of each album
+
+\pagebreak
+
+\begin{tabular}{| l | l | p{0.8\textwidth} |}
+\hline
+\multicolumn{2}{|c|}{<div> Element} & Comment \\
+\hline \hline
+\multicolumn{2}{|c|}{wrapper} & \\
+\hline
+\multicolumn{2}{|c|}{container} &
+Setting up the page's skeleton like style, margins, css\\
+\hline
+\multicolumn{2}{|c|}{navigation} &
+Links like official website, Discography summary\\
+\hline \hline
+entry1 & &
+Slide-able background with a secondary color fill for aesthetic. See the aforementioned slipknot website as reference\\
+cover & tracklist &
+Clean, short and concise presentation with a XFD player\\
+& links &
+maintainer's/verified user's comment and link to merch and webstore\\
+\hline
+entry2... & & \\
+\hline \hline
+\multicolumn{2}{|c|}{footer} &
+Back to index, legality text\\
+\hline
+\end{tabular}
