@@ -41,7 +41,7 @@ header-includes:
 \begin{tabular}{| l | l | p{0.8\textwidth} |}
 \hline
 \multicolumn{2}{|c|}{<div> Element} & Comment \\
-\hline \hline
+\hline \hline \hline
 \multicolumn{2}{|c|}{wrapper} & \\
 \hline
 \multicolumn{2}{|c|}{container} &
