@@ -13,7 +13,7 @@ header-includes:
 - Lacking platform for new or underground artists/circles, esp. in the Asia region
 - Countries like Japan still has very focused physical media platforms instead of digital, digital music platform, for example streaming is still extremely under-utilized
 - The best option is bandcamp, but it's still very foreign for users outside of Europe and America
--  Soundcloud is a terrible platform with the worst audio encoding imaginable
+-  Soundcloud is a terrible platform with the worst audio encoding imaginable (64kbps OPUS is **not** good)
 
 # Goal
 - Provide support for lesser knowns artists, discography and xfds
@@ -32,20 +32,15 @@ header-includes:
 - Overall GUI examples:
   - \begin{CJK}{UTF8}{min}
 \href{https://slipknot1.com}{Slipknot} for imemrsion and symmetrical design and
-\href{http://muonofficial.com/new_discography/haku/}{舞音KAGURA} for presentation and more specific details
+\href{http://muonofficial.com/new_discography/haku/}{舞音KAGURA} for presentation and more specific details, (\href{https://www.beatport.com/artist/nhato/85590/tracks}{Nhato} reference as backup in case slipknot changes their site again)
 \end{CJK}
-  - End result should be a sliding vertical pane of discography and horizontal presentation of details of each album
-
-\pagebreak
+  - \href{https://fanaticaldancefloor.tumblr.com/}{Diabolic Phantasma - Fanatical Dance Floor} example of good horizontal presentation
+- End result should be a sliding vertical pane of discography and horizontal presentation of details of each album
 
 \begin{tabular}{| l | l | p{0.8\textwidth} |}
 \hline
 \multicolumn{2}{|c|}{<div> Element} & Comment \\
-<<<<<<< HEAD
 \hline \hline \hline
-=======
-\hline \hline
->>>>>>> master
 \multicolumn{2}{|c|}{wrapper} & \\
 \hline
 \multicolumn{2}{|c|}{container} &
@@ -67,3 +62,7 @@ entry2... & & \\
 Back to index, legality text\\
 \hline
 \end{tabular}
+
+# TODO
+- save pics from the references post-edit as demonstration
+- convey suggestion and desired UI
