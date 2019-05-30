@@ -31,7 +31,7 @@
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 .navBar a:hover, .dropdown:hover, .dropbtn {
