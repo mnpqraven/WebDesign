@@ -1,6 +1,6 @@
 #entry1
 {
-    background: url('img/determinism-destrukction-cover.jpg');
+    /*background: url('img/determinism-destrukction-cover.jpg');*/
     background-color: rgba(255,0,0,0.4);
     background-repeat: no-repeat;
 }
@@ -9,4 +9,23 @@
     background: url('img/瑰狂鬱嵂-cover.jpg');
     background-color: rgba(255,255,0,0.4);
     background-repeat: no-repeat;
+}
+.container {
+    position: relative;
+    text-align: left;
+    color: black;
+}
+.top-Left {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+.AlbCov {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+.AlbCov:hover {
+    width: 500px;
+    height: 400px;
 }
