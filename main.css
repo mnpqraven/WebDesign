@@ -1,12 +1,77 @@
-#entry1
-{
-    background: url('img/determinism-destrukction-cover.jpg');
-    background-color: rgba(255,0,0,0.4);
-    background-repeat: no-repeat;
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.DemeHomePage {
+    background-color: brown;
+    width: 100%;
+    float: left;
+    height: auto;
+}
+.entry1 {
+    /*background: url('img/determinism-destrukction-cover.jpg');*/
+    background-color: beige;
+    background-repeat: repeat;
+    float:left;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+.content-01 {
+    padding: 20px;
+    background-color: aquamarine;
+    background-repeat: repeat;
 }
 #entry2
 {
     background: url('img/瑰狂鬱嵂-cover.jpg');
     background-color: rgba(255,255,0,0.4);
     background-repeat: no-repeat;
+}
+.container {
+    position: relative;
+    text-align: left;
+    color: black;
+    padding-left: 10px;
+    width: 100%;
+}
+.top-Left {
+    position: absolute;
+    z-index: 1;
+}
+.MiniAlbum {
+    float:left;
+    width:50%;
+}
+.AlbCov {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+.AlbCov:hover {
+    width: 500px;
+    height: 300px;
+}
+.Alb-Description {
+    float: right;
+    width:50%;
+
+}
+.Alb-Notice {
+    float: left;
+    width:100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.dropdown-info {
+    display: none;
+    position: absolute;
+    background-color: brown;
+    min-width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.Alb-Notice:hover .dropdown-info {
+    display:block;
 }
