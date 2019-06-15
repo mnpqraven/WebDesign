@@ -16,6 +16,14 @@ body {
     padding-left: 10px;
     padding-right: 40px;
 }
+.entry2 {
+    background-color: aqua;
+    background-repeat: repeat;
+    float: left;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 40px;
+}
 .content-01 {
     padding: 20px;
     background-color: aquamarine;
