@@ -1,24 +1,28 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+@media only screen and  (max-width: 700px) {
+    body {
+        background-color: green;
+    }
+}
 .DemeHomePage {
-    background-color: brown;
     width: 100%;
     float: left;
     height: auto;
+    font-size: 25px;
 }
 .entry1 {
     /*background: url('img/determinism-destrukction-cover.jpg');*/
-    background-color: beige;
-    background-repeat: repeat;
+    background-color: lightcoral;
     float:left;
     width: 100%;
     padding-left: 10px;
     padding-right: 40px;
+    margin-right: 40px;
 }
 .entry2 {
-    background-color: aqua;
-    background-repeat: repeat;
+    background-color: lightsalmon;
     float: left;
     width: 100%;
     padding-left: 10px;
@@ -26,15 +30,10 @@ body {
 }
 .content-01 {
     padding: 20px;
-    background-color: aquamarine;
+    background-color: brown;
     background-repeat: repeat;
 }
-#entry2
-{
-    background: url('img/瑰狂鬱嵂-cover.jpg');
-    background-color: rgba(255,255,0,0.4);
-    background-repeat: no-repeat;
-}
+
 .container {
     position: relative;
     text-align: left;
@@ -48,7 +47,7 @@ body {
 }
 .MiniAlbum {
     float:left;
-    width:50%;
+    width:60%;
 }
 .AlbCov {
     float: left;
@@ -56,13 +55,13 @@ body {
     height: 300px;
 }
 .AlbCov:hover {
-    width: 500px;
-    height: 300px;
+    width: auto;
+    height: auto;
 }
 .Alb-Description {
     float: right;
-    width:50%;
-
+    width: 40%;
+    color: maroon;
 }
 .Alb-Notice {
     float: left;
