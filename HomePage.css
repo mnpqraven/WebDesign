@@ -74,15 +74,17 @@
 .Middle {
     width: 98%;
     background-color: aliceblue;
-    float: left;
+    float: none;
     height: 800px;
     display: block;
 }
 .AlbumCover {
-    width: 100px;
+    position:relative;
+    width: 95%;
     height: 200px;
-    float: left;
+    float: none;
 }
 .AlbumCover:hover {
-    width: 300px;
+    width: 95%;
+    height: 220px;
 }
