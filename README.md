@@ -1,6 +1,8 @@
-# WebDesign
-
 # TODO:
+- [x] light blue BG to gray
+- [ ] header color + font color
+- [x] resize album cover
+- [ ] album cover position
+- [ ] no dropdown under album
 - [ ] float blocks for body and index slide
-- [ ] login system for favs
 - [ ] search implementation y/n
