@@ -80,7 +80,7 @@ body {
 .dropdown-info {
     display: none;
     position: absolute;
-    background-color: brown;
+    background-color: white;
     min-width: 500px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
@@ -91,7 +91,7 @@ body {
 }
 
 .parallax {
-    background-image: url('img/determinism-destrukction-cover.jpg')
+    background-image: url('img/determinism-destrukction-cover.jpg');
     height: 100%;
     background-attachment: fixed;
     background-position: center;
