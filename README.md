@@ -1,8 +1,11 @@
 # TODO:
 - [x] light blue BG to gray
 - [ ] header color + font color
+- [ ] "About them" header in the beginning of each circle
+- [ ] Border in each album + content div to highlight separation
 - [x] resize album cover
 - [ ] album cover position/scaling
+- [ ] blank section between cover and track info
 - [ ] no dropdown under album
 - [ ] float blocks for body and index slide
 - [ ] search implementation y/n
