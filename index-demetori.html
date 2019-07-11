@@ -2,12 +2,14 @@
 <html lang="ja-jp">
 		<link rel="stylesheet" href="util/navBar/navBar.css">
 		<script src="util/navBar/navBar.js"></script>
-		<div id="mySidenav" class="sidenav">
+		<div id="myNav" class="overlay">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="overlay-content">
 			<a href="index.html">Home</a>
 			<a href="#">Clients</a>
 			<a href="#">Albums</a>
 			<a href="#">About</a>
+			</div>
 		</div>
 				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
 		<!-- Menu object
@@ -114,7 +116,9 @@
 
 					<div class="comment">
 						<br><span>Maintainer's short take:</span>
-						<p>A very intriguing album, and this time it's the classic Demetori but with a little bit of foreign melodic touch on top(track 1 and 5). Track 3 is honestly one of the best rock ballad songs I've heard in the recent years, and such a chaotic riffs and solos in track 4 reflects precisely the nature of Rumia's character and her theme, making this album a must-buy for me despite finishing rather short on the tracklist compared to their older works.
+                        <!--
+                        <p>A very intriguing album, and this time it's the <br>classic Demetori but with a little bit of foreign melodic touch on top(track 1 and 5).<br>Track 3 is honestly one of the best rock ballad songs I've heard in the recent years, and such <br>a chaotic riffs and solos in track 4 reflects precisely <br>the nature of Rumia's character and her theme, making this album a must-buy for me <br>despite finishing rather short on the tracklist compared to their older works.
+                        -->
 					</div>
 				</div> <!--40%-->
 			</div> <!--END demetori-1-->
@@ -127,7 +131,7 @@
 						<tbody>
 							<tr>
 								<th colspan="2" class="albumName">
-									<b>瑰狂鬱嵂</b>
+									<div style="font-size:17px;letter-spacing:5px"><b>瑰狂鬱嵂</b></div>
 								</th>
 							</tr>
 							<tr>
@@ -180,7 +184,7 @@
 						</tr>
 						<tr>
 							<td>4</td>
-							<td>秘匿されたフォーシーズンズ ～ Hidden Seasons will pass you by</td>
+							<td>秘匿されたフォーシーズンズ ～ Hidden Seasons will pass you by testing flow</td>
 							<td>徳南，九宝時</td>
 						</tr>
 						<tr>

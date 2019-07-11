@@ -1,46 +1,61 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: darkgray;
+	/*
+	font-family: 'Roboto', sans-serif;
+	 */
+	background-color: darkgray;
+	font-family: 'techmono';
+	font-size: 20px;
+}
+
+@font-face {
+	font-family: 'techmono';
+	src: url('techmono.ttf');
 }
 
 @media only screen and (max-width: 700px) {
-    body {
-        background-color: green;
-    }
+	body {
+		background-color: green;
+	}
+}
+
+@media only screen and (min-width: 1600px) {
+	.entry {
+        width: 48%;
+	}
 }
 
 .homeHeader {
-    padding-left:25px;
-    width: 65%;
-    float: left;
-    height: auto;
-    font-size: 18px;
+	padding-left:25px;
+	width: 65%;
+	float: left;
+	height: auto;
+	font-size: 18px;
 }
 
 .entry {
-    min-width: 48%;
-    float: left;
-    padding: 10px;
-    margin: 5px;
-    border: 2px solid #000;
-    border-radius: 15px;
+	min-width: 48%;
+	float: left;
+	padding: 10px;
+	margin: 5px;
+	border: 2px solid #000;
+	border-radius: 15px;
 }
 
 .content-01 {
-    /*
-    padding: 20px;
-    background-color: brown;
-    background-repeat: repeat;
-    */
+	/*
+	padding: 20px;
+	background-color: brown;
+	background-repeat: repeat;
+	 */
 }
 
 .container {
-    position: relative;
-    text-align: left;
-    color: black;
-    padding-left: 10px;
-    padding-top: 10px;
-    width: 100%;
+	position: relative;
+	text-align: left;
+	color: black;
+	padding-left: 10px;
+	padding-top: 10px;
+	width: 100%;
 }
 
 .albumName {
@@ -50,31 +65,30 @@ body {
 }
 
 .albCover {
-    background-size:contain;
-    float: left;
-    width: 400px;
-    height: 400px;
-    resize: both;
-    position: relative;
+	background-size:contain;
+	float: left;
+	width: 400px;
+	height: 400px;
+	resize: both;
+	position: relative;
 }
 
 .MiniAlbum {
-    position: relative;
-    float: left;
-    overflow: hidden;
+	position: relative;
+	float: left;
+	overflow: hidden;
 }
 
 .Alb-Description {
-    padding-left: 10px;
-    padding-right: 5px;
-    overflow: hidden;
-    color: maroon;
+	padding-left: 10px;
+	padding-right: 5px;
+	overflow: hidden;
+	color: maroon;
 }
 
 .comment {
-    max-width: 60%;
 }
 
 .entrySpacing {
-    padding: 20px;
+	padding: 20px;
 }

@@ -8,59 +8,74 @@
 		<script src="util/navBar/navBar.js"></script>
 	</head>
 
-		<div id="mySidenav" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<div id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
 			<a href="index.html">Home</a>
-			<a href="#">Services</a>
-			<a href="#">About Us</a>
-			<a href="#">Contact</a>
-		</div>
-		<!-- Menu object
-				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-		-->
-	<div class="UpperTop">
-				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-		<div class="navBar">
-			<a href="index.html">Pepega</a>
-			<a href="#news">News</a>
-			<div class="dropdown">
-				<button class="dropbtn">Genre</button>
-				<div class="dropdown-content">
-					<a href="#">Rock</a>
-				</div>
-			</div>
+			<a href="#browse" onclick="closeNav()">Browse</a>
+			<a href="#about" onclick="closeNav()">About Us</a>
+			<a href="#contact" onclick="closeNav()">Contact</a>
 		</div>
 	</div>
+	<!-- Menu object
+	 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+	-->
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
 
 	<body>
-		<h1>TBD Circle Helper</h1>
-		<hr>
-
-		<div class="FreeLeft"></div>
-
-		<div class="Middle">
-			<br>
-			Circle List:<br>
-			<a href="index-demetori.html">Demetori</a><br>
-			<a href="index-undead-corporation.html">Verein2</a><br>
-			<a href="index-muon-kagura.html">Verein3</a>
+		<div style="background-color: #CCC; padding-left: 20px;">
+			<h1>TBD Circle Helper</h1>
+			<h2>What is this site about ?</h2>
+			This is and indexing site for doujinshi albums (同人).<br>
+			Below are some recommended and highlight circles
 		</div>
-
-        <div id="parallax" class="demetori"></div>
-        <div style="height:400px;background-color:darkgray;font-size:36px">
-			<a href="index-demetori.html">Demetori</a><br>
-            Scroll Up and Down this page to see the parallax scrolling effect.
-            This div is just here to enable scrolling.
-            Tip: Try to remove the background-attachment property to remove the scrolling effect.
-        </div>
-
-        <div id="parallax" class="uc"></div>
-        <div style="height:400px;background-color:darkgray;font-size:36px">
-            Scroll Up and Down this page to see the parallax scrolling effect.
-            This div is just here to enable scrolling.
-            Tip: Try to remove the background-attachment property to remove the scrolling effect.
-        </div>
-
-		<div class="FreeRight"><a></a></div>
+		<div id="browse"></div>
+		<div id="parallax" class="demetori"></div>
+		<div style="background-color:darkgray;font-size:36px">
+			<div align="center"><a href="index-demetori.html">Demetori</a></div>
+			<div style="padding: 10px;">
+				Heavy metal doujin circle comprised of brothers 徳南(Tokunan) on guitar/bass/keyboard and 九宝時(Kyuuhouji) on drums. Respectively, they are Masaru Teramae and Tadashi Teramae. They are brothers who frequently collaborate with each other, and formed this circle for Touhou music collaborations. Masaru is also a professional guitarist for Falcom jdk Band, which produces music and remixes for Nihon Falcom games, such as the Kiseki/Trails series and Ys.
+			</div>
+		</div>
+		<div id="parallax" class="uc"></div>
+		<div style="background-color:darkgray;font-size:36px">
+			<div align="center"><a href="index-demetori.html">UNDEAD CORPORATION</a></div>
+			Heavy Metal and Folk Metal
+		</div>
+		<div id="parallax" class="ssh"></div>
+		<div style="background-color:darkgray;font-size:36px">
+			<div align="center"><a href="index-ssh.html">Live House S.S.H</a></div>
+			<div style="padding: 10px;">
+				Instumental
+			</div>
+		</div>
+		<div style="height:400px;background-color:darkgray;font-size:36px" id="about">
+			<div align="center" style="font-size:200%;">
+			About Us
+			</div>
+			<p>
+			from from from fromfro m
+			</p>
+		</div>
+		<div style="height:400px;background-color:darkgray;font-size:36px" id="contact">
+			<div align="center" style="font-size:200%;">
+				Contact:
+			</div>
+			<table>
+				<tr>
+					<td>
+						<div style="background-image:url('img/demetori_para.jpg');width:128px; height:128px; background-size:cover">
+					</td>
+					<td>Truong Hoang Tung<br>mnpq.raven@gmail.com</td>
+				</tr>
+				<tr>
+					<td>
+						<div style="background-image:url('img/demetori_para.jpg');width:128px; height:128px; background-size:cover">
+					</td>
+					<td>Vu Quang Tien<br>test@hotmail.com</td>
+				</tr>
+			</table>
+		</div>
 	</body>
 </html>
