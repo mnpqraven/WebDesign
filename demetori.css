@@ -11,7 +11,7 @@ body {
 
 .homeHeader {
     padding-left:25px;
-    width: 100%;
+    width: 65%;
     float: left;
     height: auto;
     font-size: 18px;
@@ -72,6 +72,7 @@ body {
 }
 
 .comment {
+    max-width: 60%;
 }
 
 .entrySpacing {
