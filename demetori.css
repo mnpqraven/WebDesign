@@ -2,31 +2,30 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: darkgray;
 }
-@media only screen and  (max-width: 700px) {
+
+@media only screen and (max-width: 700px) {
     body {
         background-color: green;
     }
 }
-.DemeHomePage {
+
+.homeHeader {
     width: 100%;
     float: left;
     height: auto;
     font-size: 18px;
 }
-.entry1 {
+
+.entry {
     /*background: url('img/determinism-destrukction-cover.jpg');*/
     float: left;
     width: 100%;
-    padding-left: 10px;
-    padding-right: 40px;
-    margin-right: 40px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #000;
+    border-radius: 15px;
 }
-.entry2 {
-    float: left;
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 40px;
-}
+
 .content-01 {
     padding: 20px;
     background-color: brown;
@@ -40,16 +39,25 @@ body {
     padding-left: 10px;
     width: 100%;
 }
-.top-Left {
-    position: absolute;
-    z-index: 1;
+
+.leftTable {
 }
+
 .MiniAlbum {
-    float:left;
-    width: 50%;
+    position: relative;
+    left: 20px;
+    float: left;
+    overflow: hidden;
+    width: 40%;
 }
-.AlbCov {
-    background: url('img/瑰狂鬱嵂-cover.jpg') no-repeat;
+
+.albumName {
+	text-align:center;
+	background-color: #CCC;
+	font-size: 125%;
+}
+
+.albCover {
     background-size:contain;
     float: left;
     width: 400px;
@@ -57,17 +65,11 @@ body {
     resize: both;
     position: relative;
 }
-.AlbCov:hover > .overlay {
-    width: 400px;
-    height: 400px;
-    position:absolute;
-    background-color: #000;
-    opacity: 0.5;
-}
 
 .Alb-Description {
-    float: right;
-    width: 50%;
+    position: relative;
+    margin-left: 40%;
+    overflow: hidden;
     color: maroon;
 }
 .Alb-Notice {
@@ -79,7 +81,7 @@ body {
 }
 .dropdown-info {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: white;
     min-width: 500px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -90,11 +92,6 @@ body {
     display:block;
 }
 
-.parallax {
-    background-image: url('img/determinism-destrukction-cover.jpg');
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.entrySpacing {
+    padding: 20px;
 }

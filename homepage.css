@@ -75,10 +75,8 @@ body, html {
     height: 800px;
 }
 .Middle {
-    width: 98%;
     background-color: darkgray;
     float: none;
-    height: 800px;
     display: block;
 }
 .AlbumCover {
@@ -91,27 +89,18 @@ body, html {
     width: 95%;
     height: 220px;
 }
-.parallax {
-  /* The image used */
+
+#parallax.demetori {
   background-image: url('img/demetori_para.jpg');
-
-  /* Full height */
   height: 100%;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.parallax2 {
-  /* The image used */
+#parallax.uc {
   background-image: url('img/undead_corporation_para.jpg');
-
-  /* Full height */
   height: 100%;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
