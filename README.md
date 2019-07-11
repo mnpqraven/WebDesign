@@ -1,13 +1,19 @@
 # TODO:
 - [x] light blue BG to gray
 - [ ] header color + font color
-- [ ] "About them" header in the beginning of each circle
+  - [ ] beautify
+- [x] "About them" header in the beginning of each circle
+  - [ ] clean up
+- [x] navBar
+  - [ ] put navBar in div + page header
 - [x] Border in each album + content div to highlight separation
 - [x] resize album cover
-- [ ] album cover position/scaling
-- [ ] blank section between cover and track info
-- [ ] no dropdown under album
-- [ ] float blocks for body and index slide
+- [x] album cover position/scaling
+- [x] blank section between cover and track info
+- [x] no dropdown under album
+  - [ ] `comment` div in fullscreen should not expand text
+  - [ ] each entry takes only 50% screen in fullscreen
+- [ ] cleanup text blocks inside index parallax
 - [ ] more imgs
 
 # Roadmap (quoted from Inga)
