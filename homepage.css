@@ -1,24 +1,40 @@
 body, html {
   height: 100%;
-  font-family: 'techmono';
+  font-family: 'monof';
+  background-color: darkgray;
 }
 
-@font-face {
-  font-family: 'techmono';
-  src: url('techmono.ttf');
-}
-
-.FreeLeft {
-    width: 1%;
-    background: -moz-linear-gradient(bottom, rosybrown,bisque);
-    float: left;
+.gallery {
     height: 800px;
+    margin:auto;
 }
-.FreeRight {
-    width: 1%;
+.floatImg {
+    text-align:center;
+    margin:auto;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    width: 150px;
+    height: 200px;
+}
+@font-face {
+  font-family: 'monof';
+  src: url('util/font/monof55.ttf');
+}
+
+.leftBlock {
+    width: 20%;
+    height: 100%;
+}
+.rightBlock {
+    width: 20%;
+    height: 100%;
+    /*
     background: -moz-linear-gradient(bottom,rosybrown,bisque);
     float:right;
     height: 800px;
+    */
 }
 .Middle {
     background-color: darkgray;
