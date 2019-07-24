@@ -22,6 +22,7 @@ body {
 @media only screen and (min-width: 1750px) {
 	.entry {
         width: 48%;
+        min-height:800px;
 	}
 }
 .homeHeader {
@@ -89,7 +90,7 @@ body {
 	padding-left: 10px;
 	padding-right: 5px;
 	overflow: hidden;
-	color: maroon;
+	color: black;
 }
 
 .comment {

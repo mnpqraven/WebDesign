@@ -19,18 +19,18 @@
 - Homepage TODO:
   - [ ] preview section (3x2 or 3x3 quadratic image)
     - [ ] more spacing with top divs
-    - [ ] bigger <p> font size
+    - [x] bigger <p> font size
     - [ ] 4x3 fullscreen and 3x4 halfscreen
   - [ ] more spacing in name header sections
   - [ ] transparent layer on top of the picture (probably triangle), band name on top of the picture
-  - [ ] left and right block
-  - [ ] good weight between text and pictures
+  - [x] left and right block
+  - [x] good weight between text and pictures
 - deme TODO:
   - [ ] pictures from homepage should be present in band pages to guide users
-  - [ ] concurrence and uniformity between elements (same width border)
+  - [x] concurrence and uniformity between elements (same width border)
 - [ ] more content
-- [ ] shop links to left side
-- [ ] font color to black
+- [x] shop links to left side
+- [x] font color to black
 
 # Roadmap (quoted from Inga)
 Auf diese Punkte solltet ihr einleitend eingehen. Diejenigen von euch, die während der Stunden bereit häufiger vorgestellt haben, brauchen hier nicht sonderlich tief eingehen und vielmehr uns euren Prozess noch einmal knapp aufzeigen:

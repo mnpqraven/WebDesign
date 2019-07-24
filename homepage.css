@@ -1,45 +1,38 @@
 body, html {
-  height: 100%;
-  font-family: 'monof';
-  background-color: darkgray;
+    height: 100%;
+    font-family: 'monof';
+}
+html {
+    background-color: black;
 }
 
 .gallery {
-    height: 800px;
-    margin:auto;
-}
-.floatImg {
+    display:flex;
+    padding-left: 15%;
+    padding-right:15%;
+    padding-bottom:30px;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
     text-align:center;
     margin:auto;
-    float: left;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 100px;
-    width: 150px;
-    height: 200px;
+    background-color: darkgray;
+}
+.floatImg {
+    width: 160px;
+    height: 220px;
+    margin: 0 auto;
+    position:relative;
+    font-size: 25px;
 }
 @font-face {
-  font-family: 'monof';
-  src: url('util/font/monof55.ttf');
+    font-family: 'monof';
+    src: url('util/font/monof55.ttf');
 }
-
-.leftBlock {
-    width: 20%;
-    height: 100%;
-}
-.rightBlock {
-    width: 20%;
-    height: 100%;
-    /*
-    background: -moz-linear-gradient(bottom,rosybrown,bisque);
-    float:right;
-    height: 800px;
-    */
-}
-.Middle {
-    background-color: darkgray;
-    float: none;
-    display: block;
+.wrap {
+    margin:0 auto;
+    width:1020px;
 }
 .AlbumCover {
     position:relative;
@@ -51,28 +44,70 @@ body, html {
     width: 95%;
     height: 220px;
 }
+#info.header {
+    margin: 0 auto;
+    width:1020px;
+    text-align:center;
+    background-color:#CCC;
+    font-size:125%;
+}
+#info.box {
+    margin: 0 auto;
+    width:1020px;
+    background-color:darkgray;
+    font-size:36px
+}
+#info.content {
+    padding:20px;
+}
+
+#imageOverlay.bg {
+    float:right;
+    height:100%;
+    width:50%;
+    background-color: rgba(0,0,0,0.6);
+}
+#imageOverlay.text {
+    color:white;
+    padding: 20px;
+}
 
 #parallax.demetori {
-  background-image: url('img/demetori_para.jpg');
-  height: 80%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#parallax.ssh {
-  background-image: url('img/ssh_para.jpg');
-  height: 80%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url('img/demetori_para.jpg');
+    width:1020px;
+    margin:0 auto;
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #parallax.uc {
-  background-image: url('img/undead_corporation_para.jpg');
-  height: 80%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url('img/undead_corporation_para.jpg');
+    width:1020px;
+    margin:0 auto;
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallax.ssh {
+    background-image: url('img/ssh_para.jpg');
+    width:1020px;
+    margin:0 auto;
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom {
+    width:980px;
+    padding-left:20px;
+    padding-right:20px;
+    margin:0 auto;
+    height:400px;
+    background-color:darkgray;
+    font-size:36px
 }
