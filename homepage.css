@@ -72,35 +72,25 @@ html {
     padding: 20px;
 }
 
-#parallax.demetori {
-    background-image: url('img/demetori_para.jpg');
+#parallax {
     width:1020px;
+    display:block;
+    justify-content:center;
     margin:0 auto;
     height: 50%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto 1500px;
+}
+#parallax.demetori {
+    background-image: url('img/demetori_para.jpg');
 }
 #parallax.uc {
     background-image: url('img/undead_corporation_para.jpg');
-    width:1020px;
-    margin:0 auto;
-    height: 50%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 #parallax.ssh {
     background-image: url('img/ssh_para.jpg');
-    width:1020px;
-    margin:0 auto;
-    height: 50%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .bottom {
     width:980px;

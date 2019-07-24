@@ -17,12 +17,15 @@
 - [ ] more imgs
 
 - Homepage TODO:
-  - [ ] preview section (3x2 or 3x3 quadratic image)
+  - [x] preview section (3x2 or 3x3 quadratic image)
     - [ ] more spacing with top divs
     - [x] bigger <p> font size
-    - [ ] 4x3 fullscreen and 3x4 halfscreen
+    - [x] 4x3 fullscreen and 3x4 halfscreen
   - [ ] more spacing in name header sections
-  - [ ] transparent layer on top of the picture (probably triangle), band name on top of the picture
+  - [x] transparent layer on top of the picture (probably triangle), band name on top of the picture
+  - [ ] better images
+  - [ ] naming schemes to CD ID
+  - [ ] database parsing with csv + java
   - [x] left and right block
   - [x] good weight between text and pictures
 - deme TODO:
