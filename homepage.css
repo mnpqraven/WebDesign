@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-    font-family: 'monof';
+    font-family: "MHei","Microsoft YaHei",Arial,Helvetica,sans-serif;
 }
 html {
     background-color: black;
@@ -120,4 +120,12 @@ html {
     height:400px;
     background-color:darkgray;
     font-size:36px
+}
+a:link {
+    color: blue;
+
+}
+a:visited {
+    color: blue;
+    text-decoration: none;
 }
