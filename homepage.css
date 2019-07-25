@@ -67,6 +67,12 @@ html {
 #info.content {
     padding:20px;
 }
+
+.linespacingsmall {
+    height: 35px;
+    width: 100%;
+    background-color: black;
+}
 .linespacing {
     height: 70px;
     width: 100%;
@@ -106,14 +112,41 @@ html {
     background-repeat: no-repeat;
     background-size: auto 1500px;
 }
-#parallax.demetori {
+#parallax.drcd {
+    background-image: url('img/DRCD-para.jpg');
+}
+#parallax.decd {
     background-image: url('img/DECD-para2.jpeg');
 }
-#parallax.uc {
+#parallax.bfcd {
+    background-image: url('img/BFCD-para.jpg');
+}
+#parallax.anco {
     background-image: url('img/ANCO-para.jpg');
 }
-#parallax.ssh {
-    background-image: url('img/SSH-para.jpg');
+#parallax.vdfd {
+    background-image: url('img/VDFD-para.jpg');
+}
+#parallax.xith {
+    background-image: url('img/XITH-para.jpg');
+}
+#parallax.mtcd {
+    background-image: url('img/MTCD-para.jpg');
+}
+#parallax.rdwl {
+    background-image: url('img/RDWL-para.jpg');
+}
+#parallax.yvcd {
+    background-image: url('img/YVCD-para.jpg');
+}
+#parallax.ancd {
+    background-image: url('img/ANCD-para.jpg');
+}
+#parallax.ddby {
+    background-image: url('img/DDBY-para.jpg');
+}
+#parallax.dvsp {
+    background-image: url('img/DVSP-para.jpg');
 }
 .bottom {
     width:980px;

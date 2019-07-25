@@ -1,7 +1,7 @@
 |genre        |circle1|circle2|
 |-------------|-------|-------|
 |rock         |DRCD| |
-|metal        |DECD| |
+|metal        |DECD|YTCD|
 |metalcore    |BFCD| |
 |death metal  |ANCO|VDFD|
 |instrumental |XITH|MTCD|
