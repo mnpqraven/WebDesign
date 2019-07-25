@@ -1,8 +1,5 @@
 import javax.sound.midi.Soundbank;
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 public class csvparse {
     public static void processCSV(String file) {
@@ -88,7 +85,15 @@ public class csvparse {
          *-> POP
          *-> TRANCE
          */
-        processCSV("../dbs/DECD/DECD0012.csv");
-        processCSV("../dbs/DECD/DECD0013.csv");
+        /**
+         * CHANGE KEY HERE
+         */
+        String key = "ANCO";
+
+        File[] files = new File("../dbs/"+key).listFiles();
+        for (File file : files) {
+            String path = "../dbs/"+key+"/"+file.getName();
+            processCSV(path);
+        }
     }
 }

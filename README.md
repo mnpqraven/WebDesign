@@ -18,20 +18,21 @@
 
 - Homepage TODO:
   - [x] preview section (3x2 or 3x3 quadratic image)
-    - [ ] more spacing with top divs
+    - [x] more spacing with top divs
     - [x] bigger <p> font size
     - [x] 4x3 fullscreen and 3x4 halfscreen
   - [ ] more spacing in name header sections
   - [x] transparent layer on top of the picture (probably triangle), band name on top of the picture
   - [ ] better images
-  - [ ] naming schemes to CD ID
-  - [ ] database parsing with csv + java
+  - [x] naming schemes to CD ID
+  - [x] database parsing with csv + java
+    - [ ] xfds and pics
+    - [ ] more content
   - [x] left and right block
   - [x] good weight between text and pictures
 - deme TODO:
   - [ ] pictures from homepage should be present in band pages to guide users
   - [x] concurrence and uniformity between elements (same width border)
-- [ ] more content
 - [x] shop links to left side
 - [x] font color to black
 
