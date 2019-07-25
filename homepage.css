@@ -107,13 +107,13 @@ html {
     background-size: auto 1500px;
 }
 #parallax.demetori {
-    background-image: url('img/demetori_para.jpg');
+    background-image: url('img/DECD-para2.jpeg');
 }
 #parallax.uc {
-    background-image: url('img/undead_corporation_para.jpg');
+    background-image: url('img/ANCO-para.jpg');
 }
 #parallax.ssh {
-    background-image: url('img/ssh_para.jpg');
+    background-image: url('img/SSH-para.jpg');
 }
 .bottom {
     width:980px;

@@ -1,5 +1,7 @@
 import javax.sound.midi.Soundbank;
 import java.io.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class csvparse {
     public static void processCSV(String file) {
@@ -89,9 +91,10 @@ public class csvparse {
         /**
          * CHANGE KEY HERE
          */
-        String key = "ANCO";
+        String key = "DDBY";
 
         File[] files = new File("../dbs/"+key).listFiles();
+        Arrays.sort(files);
         for (File file : files) {
             String path = "../dbs/"+key+"/"+file.getName();
             processCSV(path);

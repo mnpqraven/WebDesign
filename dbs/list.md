@@ -11,16 +11,21 @@
 
 To-do:
 
-BFCD
-VDFD
-MTCH
-DDBY
-RDWL-0013
-RDWL-0023
-These 3 all go to YVCD folder:
-- YVCDN-0017
-- YVCDN0010
-- YVEPN0002
-ANCD-0019
-DVSP-0078
-DVSP-0093
+- [x] ANCO
+- [x] DECD
+- [x] DRCD
+- [x] XITH
+- [x] YTCD
+- [ ] BFCD
+- [ ] VDFD
+- [ ] MTCH
+- [x] DDBY
+- [ ] RDWL-0013
+- [ ] RDWL-0023
+- [ ] These 3 all go to YVCD folder:
+- [ ] - YVCDN-0017
+- [ ] - YVCDN0010
+- [ ] - YVEPN0002
+- [ ] ANCD-0019
+- [ ] DVSP-0078
+- [ ] DVSP-0093
