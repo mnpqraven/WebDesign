@@ -136,11 +136,14 @@ html {
 #parallax.rdwl {
     background-image: url('img/RDWL-para.jpg');
 }
+#parallax.ytcd {
+    background-image: url('img/YTCD-para.jpg');
+}
 #parallax.yvcd {
     background-image: url('img/YVCD-para.jpg');
 }
 #parallax.ancd {
-    background-image: url('img/ANCD-para.jpg');
+    background-image: url('img/ANCD-para.jpeg');
 }
 #parallax.ddby {
     background-image: url('img/DDBY-para.jpg');
