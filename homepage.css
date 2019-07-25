@@ -86,6 +86,14 @@ html {
     text-align: center;
     vertical-align: middle;
 }
+#imageOverlay.bgl {
+    float:left;
+    height:100%;
+    width:50%;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    vertical-align: middle;
+}
 #imageOverlay.text1 {
     position:relative;
     top:25%;
@@ -136,11 +144,14 @@ html {
 #parallax.rdwl {
     background-image: url('img/RDWL-para.jpg');
 }
+#parallax.ytcd {
+    background-image: url('img/YTCD-para.jpg');
+}
 #parallax.yvcd {
     background-image: url('img/YVCD-para.jpg');
 }
 #parallax.ancd {
-    background-image: url('img/ANCD-para.jpg');
+    background-image: url('img/ANCD-para.jpeg');
 }
 #parallax.ddby {
     background-image: url('img/DDBY-para.jpg');
