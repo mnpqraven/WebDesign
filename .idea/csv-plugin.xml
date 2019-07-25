@@ -80,6 +80,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\dbs\DVSP\DVSP0078.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\dbs\MTCD\MTCD0026.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\dbs\RDWL\RDWL0013.csv">
           <value>
             <Attribute>
@@ -88,6 +102,20 @@
           </value>
         </entry>
         <entry key="\dbs\RDWL\RDWL0023.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\dbs\VDFD\VDFD0003.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\dbs\VDFD\VDFD002.csv">
           <value>
             <Attribute>
               <option name="separator" value=";" />
