@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d974feea-50fd-4b1b-8863-2bd7ed65f76a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../circle.css" beforeDir="false" afterPath="$PROJECT_DIR$/../circle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/csvparse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/csvparse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../index-anco.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index-anco.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +20,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/csvparse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+            <state>
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,7 +135,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="659" width="2520" height="1389" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10813008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -179,8 +177,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/csvparse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

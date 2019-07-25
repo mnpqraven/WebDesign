@@ -123,8 +123,11 @@ html {
 #parallax.drcd {
     background-image: url('img/DRCD-para.jpg');
 }
+#parallax.clst {
+    background-image: url('img/CLST-para.jpg');
+}
 #parallax.decd {
-    background-image: url('img/DECD-para2.jpeg');
+    background-image: url('img/DECD-para3.jpeg');
 }
 #parallax.bfcd {
     background-image: url('img/BFCD-para.jpg');
@@ -169,10 +172,10 @@ html {
     font-size:36px
 }
 a:link {
-    color: gray;
+    color: white;
 }
 a:visited {
-    color: gray;
+    color: white;
     text-decoration: none;
 }
 a.black:link {

@@ -36,12 +36,13 @@ body {
 
 .entry {
 	min-width: 48%;
-    min-height:960px;
+    min-height:840px;
 	float: left;
 	padding: 10px;
 	margin: 5px;
 	border: 2px solid #000;
 	border-radius: 15px;
+	background-color:gray;
 }
 
 .navPanel {
@@ -88,8 +89,8 @@ body {
 }
 
 .Alb-Description {
-	padding-left: 10px;
-	padding-right: 5px;
+	vertical-align: middle;
+	position:relative;
 	overflow: hidden;
 	color: black;
 }
@@ -100,4 +101,32 @@ body {
 
 .entrySpacing {
 	padding: 20px;
+}
+
+a.white:link {
+    color: white;
+}
+a.white:visited {
+    color: white;
+    text-decoration: none;
+}
+a.black:link {
+    color: black;
+}
+a.black:visited {
+    color: black;
+    text-decoration: none;
+}
+.tableContainer1 {
+	height:100%;
+	width:100%;
+	display:table;
+}
+.tableContainer2 {
+	vertical-align:middle;
+	height:100%;
+	display:table-cell;
+}
+.myTable {
+	margin: 0 auto;
 }
