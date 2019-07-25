@@ -61,7 +61,8 @@ html {
     margin: 0 auto;
     width:1020px;
     background-color:darkgray;
-    font-size:36px
+    font-size:30px;
+    line-height:32px;
 }
 #info.content {
     padding:20px;
@@ -76,10 +77,22 @@ html {
     height:100%;
     width:50%;
     background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    vertical-align: middle;
 }
-#imageOverlay.text {
+#imageOverlay.text1 {
+    position:relative;
+    top:25%;
+    font-size: 40px;
+    transform:translateY(-25%);
+}
+#imageOverlay.text2 {
     color:white;
     padding: 20px;
+    position:relative;
+    top:75%;
+    transform:translateY(-75%);
+    font-size: 36px;
 }
 
 #parallax {
@@ -112,10 +125,16 @@ html {
     font-size:36px
 }
 a:link {
-    color: blue;
-
+    color: gray;
 }
 a:visited {
-    color: blue;
+    color: gray;
+    text-decoration: none;
+}
+a.black:link {
+    color: black;
+}
+a.black:visited {
+    color: black;
     text-decoration: none;
 }

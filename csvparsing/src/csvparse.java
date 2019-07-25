@@ -36,8 +36,9 @@ public class csvparse {
             System.out.println(aName + aDate + aId + aGen + aBuy);
             System.out.println(closeDiv);
 
+            String loremIpsum = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat. Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Amet luctus venenatis lectus magna fringilla. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Sagittis orci a scelerisque purus semper eget duis. Nulla pharetra diam sit amet nisl suscipit. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Fusce ut placerat orci nulla. Pharetra vel turpis nunc eget lorem dolor. Tristique senectus et netus et malesuada.";
 
-            String endList = "<tr>\n<th colspan=\"3\" style=\"text-align:center;\">\n<audio controls>\n<source src=\"xfds/"+id+".mp3\" type=\"audio/mpeg\">\n</audio>\n</th>\n</tr>\n</tbody>\n</table>\n<div class=\"comment\">\n<br><span>Maintainer's short take:</span>\n<p></p>\n</div>\n</div>\n</div>\n</div>\n"+
+            String endList = "<tr>\n<th colspan=\"3\" style=\"text-align:center;\">\n<audio controls>\n<source src=\"xfds/"+id+".mp3\" type=\"audio/mpeg\">\n</audio>\n</th>\n</tr>\n</tbody>\n</table>\n<div class=\"comment\">\n<br><span>Maintainer's short take:</span>\n<p>"+loremIpsum+"</p>\n</div>\n</div>\n</div>\n</div>\n"+
                     "<div class=\"entrySpacing\"></div>\n";
 
 

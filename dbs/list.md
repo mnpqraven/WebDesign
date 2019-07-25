@@ -6,7 +6,7 @@
 |death metal  |ANCO|VDFD|
 |instrumental |XITH|MTCD|
 |vocal        |RDWL|YVCD|
-|jazz         |ANCD| |
+|jazz         |ANCD|DDBY|
 |trance       |DVSP| |
 
 To-do:
@@ -14,6 +14,7 @@ To-do:
 BFCD
 VDFD
 MTCH
+DDBY
 RDWL-0013
 RDWL-0023
 These 3 all go to YVCD folder:

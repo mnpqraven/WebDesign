@@ -1,0 +1,102 @@
+body {
+	/*
+	font-family: 'Roboto', sans-serif;
+	 */
+	background-color: darkgray;
+	font-family: "MHei","Microsoft YaHei",Arial,Helvetica,sans-serif;
+	font-size: 20px;
+}
+
+
+@font-face {
+	font-family: 'monof';
+	src: url('util/font/monof55.ttf');
+}
+
+@media only screen and (max-width: 700px) {
+	body {
+		background-color: green;
+	}
+}
+
+@media only screen and (min-width: 1750px) {
+	.entry {
+        width: 48%;
+        min-height:800px;
+	}
+}
+.homeHeader {
+	padding-top:25px;
+	padding-left:25px;
+	width: 65%;
+	float: left;
+	height: auto;
+	font-size: 18px;
+}
+
+.entry {
+	min-width: 48%;
+    min-height:840px;
+	float: left;
+	padding: 10px;
+	margin: 5px;
+	border: 2px solid #000;
+	border-radius: 15px;
+}
+
+.navPanel {
+    background-color: #ccc;
+    position: fixed;
+    z-index:1;
+}
+.content-01 {
+	/*
+	padding: 20px;
+	background-color: brown;
+	background-repeat: repeat;
+	 */
+}
+
+.container {
+	position: relative;
+	text-align: left;
+	color: black;
+	padding-left: 10px;
+	padding-top: 10px;
+	width: 100%;
+}
+
+.albumName {
+	text-align:center;
+	background-color: #CCC;
+	font-size: 125%;
+}
+
+.albCover {
+	background-size:contain;
+	float: left;
+	width: 400px;
+	height: 400px;
+	resize: both;
+	position: relative;
+}
+
+.MiniAlbum {
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+
+.Alb-Description {
+	padding-left: 10px;
+	padding-right: 5px;
+	overflow: hidden;
+	color: black;
+}
+
+.comment {
+}
+
+.entrySpacing {
+	padding: 20px;
+}
