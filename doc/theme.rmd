@@ -1,5 +1,5 @@
 ---
-title: TBD (To Be Detemined)
+title: THLookup Documentation
 author: Hoang Tung, Truong
 output: pdf_document
 header-includes:
@@ -16,26 +16,15 @@ header-includes:
 -  Soundcloud is a terrible platform with the worst audio encoding imaginable (64kbps OPUS is **not** good)
 
 # Goal
-- Provide support for lesser knowns artists, discography and xfds
-- Copyright and trademark: Only xfds/metadata are allowed for upload by the maintainer/admin in this case, xfds are transformative works and fall under Fair Use
+- Provide support for lesser known artists, discography and xfds
 - Link to the album/artist storepage for purchase
+- Copyright and trademark: Only xfds/metadata are allowed for upload by the maintainer/admin in this case, xfds are transformative works and fall under Fair Use
 
 
   (xfds: Crossfades, 15-30-second snippets of a song/track)
 
-# Internal structure
-- Metadata: currently by hand
-  - Will be expanded into SQL Database in the future (inb4 nvr)
-- XFDs: offline server
-
 # Site structure:
 - Overall GUI examples:
-  - \begin{CJK}{UTF8}{min}
-\href{https://slipknot1.com}{Slipknot} for imemrsion and symmetrical design and
-\href{http://muonofficial.com/new_discography/haku/}{舞音KAGURA} for presentation and more specific details, (\href{https://www.beatport.com/artist/nhato/85590/tracks}{Nhato} reference as backup in case slipknot changes their site again)
-\end{CJK}
-  - \href{https://fanaticaldancefloor.tumblr.com/}{Diabolic Phantasma - Fanatical Dance Floor} example of good horizontal presentation
-- End result should be a sliding vertical pane of discography and horizontal presentation of details of each album
 
 \begin{tabular}{| l | l | p{0.8\textwidth} |}
 \hline
@@ -50,19 +39,24 @@ Setting up the page's skeleton like style, margins, css\\
 Links like official website, Discography summary\\
 \hline \hline
 entry1 & &
-Slide-able background with a secondary color fill for aesthetic. See the aforementioned slipknot website as reference\\
+Slide-able background with a secondary color fill for aesthetic.\\
 cover & tracklist &
 Clean, short and concise presentation with a XFD player\\
-& links &
+metadata & links &
 maintainer's/verified user's comment and link to merch and webstore\\
 \hline
-entry2... & & \\
+entry2... & &
+In fullscreen mode, 2 entry div can be placed side by side\\
 \hline \hline
 \multicolumn{2}{|c|}{footer} &
 Back to index, legality text\\
 \hline
 \end{tabular}
 
-# TODO
-- save pics from the references post-edit as demonstration
-- convey suggestion and desired UI
+# Internal structure
+- Metadata: CSV Database + parser
+
+\includegraphics{parsing.png}
+
+- XFDs and cover images: offline server
+

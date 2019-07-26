@@ -8,12 +8,7 @@ body {
 }
 
 
-@font-face {
-	font-family: 'monof';
-	src: url('util/font/monof55.ttf');
-}
-
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1700px) {
     .entry {
         width:98%;
     }
