@@ -13,10 +13,10 @@ body {
 	src: url('util/font/monof55.ttf');
 }
 
-@media only screen and (max-width: 700px) {
-	body {
-		background-color: green;
-	}
+@media only screen and (max-width: 1500px) {
+    .entry {
+        width:98%;
+    }
 }
 
 @media only screen and (min-width: 1750px) {
